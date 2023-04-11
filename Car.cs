@@ -68,7 +68,7 @@ namespace CarRace
         // Make async?
         public static async Task EventOccurrence(Car car)
         {
-            // Make a list of evens based on probability to occur
+            // Make a list of events based on probability to occur
             //Refuel 1/50
             //Puncture 2/50
             //EventOccurrence 5/50
