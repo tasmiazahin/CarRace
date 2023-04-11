@@ -65,7 +65,6 @@ namespace CarRace
             return car;
         }
 
-        // Make async?
         public static async Task EventOccurrence(Car car)
         {
             // Make a list of events based on probability to occur

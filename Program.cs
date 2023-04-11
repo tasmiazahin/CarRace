@@ -53,7 +53,7 @@ namespace CarRace
             }
         }
 
-        public async static Task Wait30Seconds(int tick = 2)
+        public async static Task Wait30Seconds(int tick =30)
         {
             Task.Delay(TimeSpan.FromSeconds(tick)).Wait(); //  Force wait for 30 seconds
         }
